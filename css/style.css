@@ -1,0 +1,194 @@
+/*******topheader css**********/
+.topheader{
+    background-color: #000000;
+    padding: 5px 0px;
+}
+.topheader p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0px;
+
+}
+/***********header css*****************/
+header{
+    padding: 20px 0px;
+}
+.social-media-icons ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.social-media-icons ul li{
+    display:inline;
+    vertical-align: -webkit-baseline-middle;
+}
+.social-media-icons ul li a{
+    padding-right: 20px;
+  }
+.social-media-icons ul li a i{
+    color: #000;
+    font-size: 20px;
+}
+.nav-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-menu ul li{
+   display:inline-block;
+   vertical-align: -webkit-baseline-middle;
+}
+.nav-menu ul li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 30px;
+    text-decoration:none;
+}
+.nav-menu ul li a img{
+    height: 40px;
+    width: 76px;
+    object-fit: cover;
+}
+
+.login-panel ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-panel ul li{
+    display:inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+.login-panel ul li a{
+    padding-left: 20px;
+    color:#000000;
+    font-size:20px;
+}
+.login-panel ul li a span{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    padding-right: 14px;
+}
+
+/****Banner css***/
+.banner{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+/*****disposable css********/
+.disposable-vape-heading{
+    padding-top: 10px;
+}
+.disposable-vape-heading h4{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 0;
+}
+.disposable-vape-heading h1{
+    font-size: 90px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.disposable-vape-heading p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000000;
+}
+/******wrapper*******/
+.wrapper{
+    padding-top:15px;
+}
+.img-block-section p{
+    color: #000000;
+    font-size: 13px;
+    padding-top: 2px;
+    font-weight: 400;
+}
+.row-spacing{
+    padding-left:30px;
+    padding-right:30px;
+}
+.line{
+    border-bottom: 1px dashed;
+    margin:35px 30px;
+}
+.box-gap{
+    padding:20px 0px;
+}
+.box-gap img{
+    width:100%;
+}
+.line-2{
+    border-bottom: 1px dashed;
+    margin:35px 0px;   
+}
+.watch-out-banner{
+  padding-top:20px;
+}
+.changing-vape h3{
+    font-size: 26px;
+    font-weight: 800;
+    color: #000000;
+    padding-top: 12px;
+}
+.read-more{
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.read-more a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration:underline;
+}
+.mobile-navbar{
+    padding: 15px 0;
+}
+.burgermenu i{
+    font-size:30px;
+    color: #000000;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/*********desktop devices**********/
+@media (min-width: 768px) {
+ .desktop{
+       display:block;
+    }
+    .mobile-navbar{
+        display:none;
+    }
+}
+/*********Media query for devices**********/
+@media (max-width: 767.98px) {
+ .disposable-vape-heading h1{
+    font-size: 38px;
+ }
+ .watch-out-banner{
+     padding-top:0px;
+ }
+ .changing-vape h3{
+    font-size: 24px;
+    padding-bottom: 12px;
+ }
+ .desktop{
+     display:none;
+ }
+
+}
